@@ -1,0 +1,74 @@
+body{
+    background: rgb(130, 235, 225);
+}
+
+.main-card-container{
+    display: flex;
+    flex-direction: row; 
+}
+.card{
+    margin:10px;
+    background:#fff;
+}
+ .card-number{
+    color: red;
+    width: 200px;
+    height: 200px;
+}
+.card-circle{
+    box-sizing: border-box;
+    border-width: 100px;
+    border: 1px solid rgb(0, 35, 234);
+    border-radius: 50%;
+}
+
+.card-author{
+    display: block;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    margin:15px 0 0;
+    text-transform: capitalize;
+}
+
+.card-title{
+    font-family: "Cormorant Garamond" , serif;
+    font-size: 60px;
+    font-weight: 300;
+    line-height: 60px;
+    margin:10px 0;
+    text-transform: capitalize;
+}
+
+.card-read{
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 6px;
+    margin-block-end: 5px 0 20px;
+    position: relative;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+.card-read:after{
+    background:#b8bddd;
+    content: "";
+    display: block;
+    height: 1px;
+    position: absolute;
+    top: 9px;
+    width: 75%;
+}
+
+.card-tag{
+    float: right;
+    margin: 5px 0 0 ;
+    border: 1px solid #aaa;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.card-tag:hover{
+    background: #aaa;
+    color: black;
+}
