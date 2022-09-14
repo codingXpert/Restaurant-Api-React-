@@ -1,4 +1,8 @@
 body{
+    margin: 0;
+    padding: 0;
+    /* overflow-y: hidden;  */
+    overflow-x: hidden; 
     background: rgb(130, 235, 225);
 }
 
@@ -9,6 +13,9 @@ body{
 .card{
     margin:10px;
     background:#fff;
+    box-sizing: border-box;
+    height: 450px;
+    width:450px;
 }
  .card-number{
     color: red;
@@ -71,4 +78,32 @@ body{
 .card-tag:hover{
     background: #aaa;
     color: black;
+}
+
+.card-media{
+    height: 210px;
+    width: 210px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center; 
+}
+
+.btn-group{
+background: rgba(255, 255, 255, 0.39);
+border-radius: 10px;
+margin-top: 10px;
+}
+
+.navbar button{
+    border: none;
+    margin:10px;
+    background: none;
+    cursor: pointer;
+}
+
+.navbar button:hover{
+    color: #fff;
+    border-bottom: 2px solid rgb(255, 255, 255);
 }

@@ -10,7 +10,7 @@ const Menu = [
 
     {
         id:2,
-        image:"images/llu.jpg",
+        image:"images/allu.jpg",
         name:"allu pakoda",
         category:"evening",
         price:"20₹",
@@ -43,7 +43,17 @@ const Menu = [
         name:"roti",
         category:"evening",
         price:"7₹",
-        description:"roti"
+        description:"They might have some difference in their thickness (like rotli in Gujarat is very thin while my North-Indian version is slightly thicker) and the way they are cooked but more or less they are same."
+    } ,
+
+    {
+        
+        id:6,
+        image:"images/roti.jpg",
+        name:"roti",
+        category:"night",
+        price:"7₹",
+        description:"They might have some difference in their thickness (like rotli in Gujarat is very thin while my North-Indian version is slightly thicker) and the way they are cooked but more or less they are same."
     }
 ];
 
